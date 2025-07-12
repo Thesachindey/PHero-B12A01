@@ -19,11 +19,11 @@ body {
     color: #fff;
     cursor: pointer;
     font-family: "Raleway", sans-serif;
+    transition: 0.3s ease-in-out;
 }
 
 .primary-btn:hover {
-    background-color: #0056b3;
-    transition: all;
+   background-color: rgb(0, 0, 58);  transform: scale(1.02);
 }
 
 
@@ -43,9 +43,9 @@ nav {
 
 .logo {
     font-size: 2.5rem;
-    font-weight: 800;
-    color: #007bff;
-
+    color: #4e47ff;
+    font-weight: 900;
+    font-family: "Inter", sans-serif;
 }
 
 /* hero section style */
@@ -390,7 +390,7 @@ input {
     padding: 1.5rem 0.5rem;
     border-radius: 10px;
     border: 1px solid #d6dded;
-    
+
 }
 
 input[type="text"] {
@@ -413,21 +413,72 @@ textarea {
     box-sizing: border-box;
     vertical-align: middle;
     resize: none;
-     padding-left: 2rem;
+    padding-left: 2rem;
 }
 
 textarea::placeholder {
     font-size: 1.2rem;
- font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
 
 }
 
 .s5-sub-con2 button {
-   width: 100%;
-   margin-top: .4rem;
+    width: 100%;
+    margin-top: .4rem;
 }
+
 label {
-   margin-top: .5rem;
+    margin-top: .5rem;
 }
 
 
+/* footer style  */
+footer {
+    background-color: #ffffff;
+    padding: 1rem 3rem;
+    text-align: center;
+}
+
+.footer-main-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 4rem 8rem;
+}
+
+.footer-main-con h1 {
+    font-size: 5rem;
+    color: #4e47ff;
+    font-weight: 900;
+    font-family: "Inter", sans-serif;
+}
+
+.footer-main-con span p {
+    font-size: .9rem;
+    font-weight: 300;
+    color:#8987a1;
+    font-family: "Inter", sans-serif;
+}
+
+.link a{    
+    align-items: center;
+    text-decoration: none;
+    font-size: .9rem;
+    font-weight: 300;
+    color:#8987a1;
+    font-family: "Inter", sans-serif;
+}
+.link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8rem;
+    margin-top: .8rem;
+}
+.link a:hover {
+    color: #4e47ff;
+    transition: all;
+}
