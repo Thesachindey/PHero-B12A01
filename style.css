@@ -2,19 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- 
+
 }
 
-body{
-       background-color: #f5f8ff;
+body {
+    background-color: #f5f8ff;
 }
 
 /* shared style */
 .primary-btn {
-    padding: 0.5rem 1rem;
+    padding: 0.9rem 1.4rem;
+    border-radius: 8px;
+    font-weight: 600;
     border: none;
-    border-radius: 5px;
-    background-color: #007bff;
+    background-color: #4e47ff;
     color: #fff;
     cursor: pointer;
     font-family: "Raleway", sans-serif;
@@ -207,7 +208,7 @@ nav {
     background-color: #fafcff;
     padding: 1rem;
     padding-right: 3rem;
-  
+
     border-radius: 20px;
     border: #f2eded 1px solid;
     gap: 1rem;
@@ -228,6 +229,7 @@ nav {
     color: #252432;
     font-weight: 700;
 }
+
 .s3-img-revew-text {
     font-size: smaller;
     display: flex;
@@ -250,7 +252,7 @@ nav {
     height: 30px;
 }
 
-.s3-img-revew-sub{
+.s3-img-revew-sub {
     display: flex;
     flex-direction: column;
     align-items: self-start;
@@ -267,7 +269,7 @@ nav {
 .s3-img-revew-sub p {
     font-size: 1rem;
     color: #a6a6a6;
-   font-weight: 300;
+    font-weight: 300;
 }
 
 .s3-sub-con {
@@ -278,4 +280,63 @@ nav {
     justify-content: space-around;
     align-items: center;
     padding: 1.5rem;
+}
+
+
+/* section-4 style  */
+.section-4 {
+    padding: 1rem 3rem;
+    margin: 3rem 3rem;
+    text-align: center;
+
+}
+
+.s4-main-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    gap: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-radius: 20px;
+}
+
+.s4-sub-con1 h1 {
+    font-size: 3rem;
+    color: #252432;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.s4-sub-con1 p {
+    color: #808080;
+    font-family: "Inter", sans-serif;
+    font-size: .98rem;
+}
+
+.s4-sub-con1 button {
+    padding: 0.9rem 1.4rem;
+    border-radius: 8px;
+  font-weight: 400;
+
+}
+
+.s4-sub-con1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.s4-sub-con2 img {
+    border-radius: 48px;
+    width: 840px;
+    height: 364px;
 }
